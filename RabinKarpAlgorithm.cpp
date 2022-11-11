@@ -67,8 +67,8 @@ void search(char pat[], char txt[], int q)
 /* Driver code */
 int main()
 {
-	char txt[] = "OmkarOmKarOmKArOmKAR";
-	char pat[] = "Omkar";
+	char txt[] = "ParamParamParam";
+	char pat[] = "Param";
 
 	// we mod to avoid overflowing of value but we should
 	// take as big q as possible to avoid the collison
